@@ -1,0 +1,46 @@
+{
+    "veiculos": [
+        {
+            "id": "12",
+            "modelo": "FH10",
+            "capacidade_carga": 20000,
+            "categoria_habilitacao": "D",
+            "disponibilidade": "em uso"
+        }
+    ],
+    "motoristas": [
+        {
+            "id": "123",
+            "nome": "Dito Cujo",
+            "veiculo_id": "12",
+            "tipo_habilitacao": [
+                "D"
+            ]
+        }
+    ],
+    "pedidos": [
+        {
+            "id": "99",
+            "peso": 200,
+            "endereco": "Rua acola",
+            "status": "em tr\u00e2nsito",
+            "motorista_id": "123",
+            "veiculo_id": "12"
+        },
+        {
+            "id": "999",
+            "peso": 45,
+            "endereco": "Avenida Pra La",
+            "status": "pendente",
+            "motorista_id": null,
+            "veiculo_id": null
+        }
+    ],
+    "localizacoes": {
+        "12": [
+            -25.514985,
+            -49.179549
+        ]
+    },
+    "motoristas_irregulares": []
+}
